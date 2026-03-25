@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/guswl/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/Nebula/Pro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "프로서버 (Minecraft 1.12.2)",
+    "description": "프로서버 Running Minecraft 1.12.2 (Forge v14.23.5.2859)",
+    "icon": "How to set the server icon: https://cdn.discordapp.com/attachments/1424803862065451081/1486473248764858549/Icon.png?ex=69c5a197&is=69c45017&hm=0eac104e6e503c6dbe4cf7e3807c9069fcaab8c9ecf4ba0f0cbe15a46ea03018&",
+    "address": "211.244.92.239:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "14.23.5.2859"
+  },
+  "untrackedFiles": []
+}
