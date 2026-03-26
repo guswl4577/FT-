@@ -481,6 +481,16 @@
           }
         },
         {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.5+mc1.21.11@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 652311,
+            "url": "https://guswl4577.github.io/FT-/servers/%ED%94%84%EB%A1%9C%EC%84%9C%EB%B2%842-1.21.11/fabricmods/required/koreanpatch-fabric-1.9.5+mc1.21.11.jar",
+            "MD5": "279717a521c4aa2cf450275220a985b7"
+          }
+        },
+        {
           "id": "generated.fabricmod:optifine_1.21.11_hd_u_j9:0.0.0@jar",
           "name": "OptiFine_1.21.11_HD_U_J9",
           "type": "FabricMod",
