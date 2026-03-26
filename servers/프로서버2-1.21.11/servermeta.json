@@ -3,9 +3,9 @@
   "meta": {
     "version": "1.0.0",
     "name": "프로서버2 (Minecraft 1.21.11)",
-    "description": "프로서버2 Running Minecraft 1.21.11 (Forge v61.1.0)",
+    "description": "프로서버2 Running Minecraft 1.21.11 (Fabric v0.18.4)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "pro0104.kro.kr",
+    "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -14,8 +14,8 @@
     "mainServer": false,
     "autoconnect": false
   },
-  "forge": {
-    "version": "61.1.0"
+  "fabric": {
+    "version": "0.18.4"
   },
   "untrackedFiles": []
 }

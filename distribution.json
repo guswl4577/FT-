@@ -365,7 +365,7 @@
     {
       "id": "프로서버2-1.21.11",
       "name": "프로서버2 (Minecraft 1.21.11)",
-      "description": "프로서버2 Running Minecraft 1.21.11 (Forge v61.1.0)",
+      "description": "프로서버2 Running Minecraft 1.21.11 (Fabric v0.18.4)",
       "icon": null,
       "version": "1.0.0",
       "address": "pro0104.kro.kr",
@@ -375,651 +375,129 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.21.11-61.1.0:universal",
-          "name": "Minecraft Forge (universal jar)",
-          "type": "ForgeHosted",
-          "classpath": true,
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
           "artifact": {
-            "size": 2921394,
-            "MD5": "05c0485928df28f577c3fb11b9912e3d",
-            "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/forge/1.21.11-61.1.0/forge-1.21.11-61.1.0-universal.jar"
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://guswl4577.github.io/FT-/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
           },
           "subModules": [
             {
-              "id": "1.21.11-61.1.0",
-              "name": "Minecraft Forge (version.json)",
+              "id": "1.21.11-fabric-0.18.4",
+              "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 26307,
-                "MD5": "9bbd181a3cfbecddc6f6da433df0e3d0",
-                "url": "https://guswl4577.github.io/FT-/repo/versions/1.21.11-forge-61.1.0/1.21.11-forge-61.1.0.json"
+                "size": 2850,
+                "MD5": "ddd4ef61882938944bafa43241af77c6",
+                "url": "https://guswl4577.github.io/FT-/repo/versions/1.21.11-fabric-0.18.4/1.21.11-fabric-0.18.4.json"
               }
             },
             {
-              "id": "net.minecraftforge:forge:1.21.11-61.1.0:client",
-              "name": "Minecraft Forge (client jar)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 32624009,
-                "MD5": "79c3c2fe4106b9eebf4f8b03a1b348a6",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/forge/1.21.11-61.1.0/forge-1.21.11-61.1.0-client.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.21.11-61.1.0:shim",
-              "name": "Minecraft Forge (client shim)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 16281,
-                "MD5": "f395567db2fe2e9ccd8b039ec7830738",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/forge/1.21.11-61.1.0/forge-1.21.11-61.1.0-shim.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:fmlcore:1.21.11-61.1.0",
-              "name": "Minecraft Forge (fmlcore)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 128228,
-                "MD5": "e5ac7f88cc5b33b2c80dff0703521fef",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/fmlcore/1.21.11-61.1.0/fmlcore-1.21.11-61.1.0.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:javafmllanguage:1.21.11-61.1.0",
-              "name": "Minecraft Forge (javafmllanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 27043,
-                "MD5": "07443edb9ca67293ee187f26494d2fd3",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/javafmllanguage/1.21.11-61.1.0/javafmllanguage-1.21.11-61.1.0.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:mclanguage:1.21.11-61.1.0",
-              "name": "Minecraft Forge (mclanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 4820,
-                "MD5": "ebf65d096b5243cef54c7439e2609a6f",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/mclanguage/1.21.11-61.1.0/mclanguage-1.21.11-61.1.0.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:lowcodelanguage:1.21.11-61.1.0",
-              "name": "Minecraft Forge (lowcodelanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 7179,
-                "MD5": "998407c4c909c612cbb9802c8818594e",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/lowcodelanguage/1.21.11-61.1.0/lowcodelanguage-1.21.11-61.1.0.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.21.11-61.1.0:universal",
-              "name": "Minecraft Forge (forge)",
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
               "type": "Library",
               "artifact": {
-                "size": 2921394,
-                "MD5": "05c0485928df28f577c3fb11b9912e3d",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/forge/1.21.11-61.1.0/forge-1.21.11-61.1.0-universal.jar"
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
               }
             },
             {
-              "id": "net.minecraftforge:JarJarFileSystems:0.4.2",
-              "name": "Minecraft Forge (JarJarFileSystems)",
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 33497,
-                "MD5": "344ebab83a0d8c2ab3a428a44cacec37",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/JarJarFileSystems/0.4.2/JarJarFileSystems-0.4.2.jar"
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
               }
             },
             {
-              "id": "net.minecraftforge:roimfs:1.0.0",
-              "name": "Minecraft Forge (roimfs)",
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 30240,
-                "MD5": "d174cdf26574775cbc86572d7fdbf523",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/roimfs/1.0.0/roimfs-1.0.0.jar"
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
               }
             },
             {
-              "id": "com.google.guava:guava:33.5.0-jre",
-              "name": "Minecraft Forge (guava)",
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 3017283,
-                "MD5": "d9fbf39a41a5bab891348f07668e18c5",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar"
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
               }
             },
             {
-              "id": "com.google.guava:failureaccess:1.0.3",
-              "name": "Minecraft Forge (failureaccess)",
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 10763,
-                "MD5": "29a782e90f6b37218b18bb880d2a8f4a",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar"
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
               }
             },
             {
-              "id": "net.minecraftforge:securemodules:2.2.24",
-              "name": "Minecraft Forge (securemodules)",
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
               "type": "Library",
               "artifact": {
-                "size": 101247,
-                "MD5": "f10f10eadf7bb25079383b3d24d0219d",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/securemodules/2.2.24/securemodules-2.2.24.jar"
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://guswl4577.github.io/FT-/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
               }
             },
             {
-              "id": "net.minecraftforge:unsafe:0.9.2",
-              "name": "Minecraft Forge (unsafe)",
+              "id": "net.fabricmc:intermediary:1.21.11",
+              "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 7768,
-                "MD5": "a4b1f17fbeea6b548c3530451e45c5c6",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/unsafe/0.9.2/unsafe-0.9.2.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.9.1",
-              "name": "Minecraft Forge (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 126252,
-                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.9.1",
-              "name": "Minecraft Forge (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51963,
-                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.9.1",
-              "name": "Minecraft Forge (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 94643,
-                "MD5": "fd4d359daf227302ab9cefd36476ca72",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.9.1",
-              "name": "Minecraft Forge (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 75010,
-                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.9.1",
-              "name": "Minecraft Forge (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 35170,
-                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
-              }
-            },
-            {
-              "id": "de.oceanlabs.mcp:mcp_config:1.21.11-20251223.124241:srg2off",
-              "name": "Minecraft Forge (mcp_config)",
-              "type": "Library",
-              "artifact": {
-                "size": 689876,
-                "MD5": "cc88bab1f0eb0baf7d21fe69bb87ea9a",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/de/oceanlabs/mcp/mcp_config/1.21.11-20251223.124241/mcp_config-1.21.11-20251223.124241-srg2off.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarFileSystems:0.4.2",
-              "name": "Minecraft Forge (JarJarFileSystems)",
-              "type": "Library",
-              "artifact": {
-                "size": 33497,
-                "MD5": "344ebab83a0d8c2ab3a428a44cacec37",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/JarJarFileSystems/0.4.2/JarJarFileSystems-0.4.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:roimfs:1.0.0",
-              "name": "Minecraft Forge (roimfs)",
-              "type": "Library",
-              "artifact": {
-                "size": 30240,
-                "MD5": "d174cdf26574775cbc86572d7fdbf523",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/roimfs/1.0.0/roimfs-1.0.0.jar"
-              }
-            },
-            {
-              "id": "com.google.guava:guava:33.5.0-jre",
-              "name": "Minecraft Forge (guava)",
-              "type": "Library",
-              "artifact": {
-                "size": 3017283,
-                "MD5": "d9fbf39a41a5bab891348f07668e18c5",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar"
-              }
-            },
-            {
-              "id": "com.google.guava:failureaccess:1.0.3",
-              "name": "Minecraft Forge (failureaccess)",
-              "type": "Library",
-              "artifact": {
-                "size": 10763,
-                "MD5": "29a782e90f6b37218b18bb880d2a8f4a",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:securemodules:2.2.24",
-              "name": "Minecraft Forge (securemodules)",
-              "type": "Library",
-              "artifact": {
-                "size": 101247,
-                "MD5": "f10f10eadf7bb25079383b3d24d0219d",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/securemodules/2.2.24/securemodules-2.2.24.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:unsafe:0.9.2",
-              "name": "Minecraft Forge (unsafe)",
-              "type": "Library",
-              "artifact": {
-                "size": 7768,
-                "MD5": "a4b1f17fbeea6b548c3530451e45c5c6",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/unsafe/0.9.2/unsafe-0.9.2.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.9.1",
-              "name": "Minecraft Forge (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 126252,
-                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.9.1",
-              "name": "Minecraft Forge (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51963,
-                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.9.1",
-              "name": "Minecraft Forge (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 94643,
-                "MD5": "fd4d359daf227302ab9cefd36476ca72",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.9.1",
-              "name": "Minecraft Forge (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 75010,
-                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.9.1",
-              "name": "Minecraft Forge (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 35170,
-                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:bootstrap:2.1.8",
-              "name": "Minecraft Forge (bootstrap)",
-              "type": "Library",
-              "artifact": {
-                "size": 11124,
-                "MD5": "5e88694e0e5f6656830eee83d462550e",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/bootstrap/2.1.8/bootstrap-2.1.8.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:bootstrap-api:2.1.8",
-              "name": "Minecraft Forge (bootstrap-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 2059,
-                "MD5": "80e1ccc33e0ac0a995a352ec2977d131",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/bootstrap-api/2.1.8/bootstrap-api-2.1.8.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:accesstransformers:8.2.2",
-              "name": "Minecraft Forge (accesstransformers)",
-              "type": "Library",
-              "artifact": {
-                "size": 39770,
-                "MD5": "6b5637f836fa17705880c58980494d30",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/accesstransformers/8.2.2/accesstransformers-8.2.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:eventbus:7.0.1",
-              "name": "Minecraft Forge (eventbus)",
-              "type": "Library",
-              "artifact": {
-                "size": 55412,
-                "MD5": "fa16b3e385b249d9ca5ae3a43877dd9f",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/eventbus/7.0.1/eventbus-7.0.1.jar"
-              }
-            },
-            {
-              "id": "org.jspecify:jspecify:1.0.0",
-              "name": "Minecraft Forge (jspecify)",
-              "type": "Library",
-              "artifact": {
-                "size": 3819,
-                "MD5": "9133aba420d0ca3b001dbb6ae9992cf6",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forgespi:8.0.0",
-              "name": "Minecraft Forge (forgespi)",
-              "type": "Library",
-              "artifact": {
-                "size": 30082,
-                "MD5": "ed71a7cbf3126f8765d72cd4999dcc3c",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/forgespi/8.0.0/forgespi-8.0.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:coremods-api:5.3.0",
-              "name": "Minecraft Forge (coremods-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 15303,
-                "MD5": "f17c90b29b0069df8c3eec53b70d4812",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/coremods-api/5.3.0/coremods-api-5.3.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:modlauncher:10.2.4",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 129138,
-                "MD5": "0c1f1d647daf381e4b80265dd85640de",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/modlauncher/10.2.4/modlauncher-10.2.4.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:mergetool-api:1.0",
-              "name": "Minecraft Forge (mergetool-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 2624,
-                "MD5": "848efa1631b460b715de574b2beaba8e",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/mergetool-api/1.0/mergetool-api-1.0.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.7.4",
-              "name": "Minecraft Forge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 39542,
-                "MD5": "90e668945d6a9f65956267f6698496a1",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/com/electronwill/night-config/toml/3.7.4/toml-3.7.4.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.7.4",
-              "name": "Minecraft Forge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 360099,
-                "MD5": "91f883024d3fda9862f93d9ffbb83c0b",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/com/electronwill/night-config/core/3.7.4/core-3.7.4.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.8.8",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 58097,
-                "MD5": "62c96f80b30e8a0c3e706bc0a27b4384",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/apache/maven/maven-artifact/3.8.8/maven-artifact-3.8.8.jar"
-              }
-            },
-            {
-              "id": "net.minecrell:terminalconsoleappender:1.2.0",
-              "name": "Minecraft Forge (terminalconsoleappender)",
-              "type": "Library",
-              "artifact": {
-                "size": 15977,
-                "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-reader:3.25.1",
-              "name": "Minecraft Forge (jline-reader)",
-              "type": "Library",
-              "artifact": {
-                "size": 183668,
-                "MD5": "e0761241f55f4f1a46999f57c7a419a1",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/jline/jline-reader/3.25.1/jline-reader-3.25.1.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-terminal:3.25.1",
-              "name": "Minecraft Forge (jline-terminal)",
-              "type": "Library",
-              "artifact": {
-                "size": 261895,
-                "MD5": "6e319770f036ccab1928b8de68a62ca5",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/jline/jline-terminal/3.25.1/jline-terminal-3.25.1.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-terminal-jna:3.25.1",
-              "name": "Minecraft Forge (jline-terminal-jna)",
-              "type": "Library",
-              "artifact": {
-                "size": 73759,
-                "MD5": "a9b17e3a4bc39309cbc1243e81400615",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/jline/jline-terminal-jna/3.25.1/jline-terminal-jna-3.25.1.jar"
-              }
-            },
-            {
-              "id": "org.spongepowered:mixin:0.8.7",
-              "name": "Minecraft Forge (mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1134454,
-                "MD5": "b433b4dfbad09313e143c6097cd0b676",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar"
-              }
-            },
-            {
-              "id": "io.github.llamalad7:mixinextras-forge:0.5.3",
-              "name": "Minecraft Forge (mixinextras-forge)",
-              "type": "Library",
-              "artifact": {
-                "size": 632600,
-                "MD5": "f75667f0cf785152670febb7f9e4e36f",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/io/github/llamalad7/mixinextras-forge/0.5.3/mixinextras-forge-0.5.3.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarSelector:0.4.2",
-              "name": "Minecraft Forge (JarJarSelector)",
-              "type": "Library",
-              "artifact": {
-                "size": 16658,
-                "MD5": "aa48a8a5dccf343b771c8aaa2b6ee4fb",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/JarJarSelector/0.4.2/JarJarSelector-0.4.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarMetadata:0.4.2",
-              "name": "Minecraft Forge (JarJarMetadata)",
-              "type": "Library",
-              "artifact": {
-                "size": 15990,
-                "MD5": "33b1bd52bbf0a7f481ab51430a13895d",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/JarJarMetadata/0.4.2/JarJarMetadata-0.4.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlcore:1.21.11-61.1.0",
-              "name": "Minecraft Forge (fmlcore)",
-              "type": "Library",
-              "artifact": {
-                "size": 128228,
-                "MD5": "e5ac7f88cc5b33b2c80dff0703521fef",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/fmlcore/1.21.11-61.1.0/fmlcore-1.21.11-61.1.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlloader:1.21.11-61.1.0",
-              "name": "Minecraft Forge (fmlloader)",
-              "type": "Library",
-              "artifact": {
-                "size": 263136,
-                "MD5": "1fbddb8538ac1e4953be6f4d8fd1142f",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/fmlloader/1.21.11-61.1.0/fmlloader-1.21.11-61.1.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlearlydisplay:1.21.11-61.1.0",
-              "name": "Minecraft Forge (fmlearlydisplay)",
-              "type": "Library",
-              "artifact": {
-                "size": 169741,
-                "MD5": "4cc91ed45fbd91400efa7a21fd1e591e",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/fmlearlydisplay/1.21.11-61.1.0/fmlearlydisplay-1.21.11-61.1.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:javafmllanguage:1.21.11-61.1.0",
-              "name": "Minecraft Forge (javafmllanguage)",
-              "type": "Library",
-              "artifact": {
-                "size": 27043,
-                "MD5": "07443edb9ca67293ee187f26494d2fd3",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/javafmllanguage/1.21.11-61.1.0/javafmllanguage-1.21.11-61.1.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:lowcodelanguage:1.21.11-61.1.0",
-              "name": "Minecraft Forge (lowcodelanguage)",
-              "type": "Library",
-              "artifact": {
-                "size": 7179,
-                "MD5": "998407c4c909c612cbb9802c8818594e",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/lowcodelanguage/1.21.11-61.1.0/lowcodelanguage-1.21.11-61.1.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:mclanguage:1.21.11-61.1.0",
-              "name": "Minecraft Forge (mclanguage)",
-              "type": "Library",
-              "artifact": {
-                "size": 4820,
-                "MD5": "ebf65d096b5243cef54c7439e2609a6f",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/mclanguage/1.21.11-61.1.0/mclanguage-1.21.11-61.1.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forge-transformers:1.21.11-61.1.0",
-              "name": "Minecraft Forge (forge-transformers)",
-              "type": "Library",
-              "artifact": {
-                "size": 14750,
-                "MD5": "cf76ce4492f42a478ec76d849e48a056",
-                "url": "https://guswl4577.github.io/FT-/repo/lib/net/minecraftforge/forge-transformers/1.21.11-61.1.0/forge-transformers-1.21.11-61.1.0.jar"
+                "size": 797685,
+                "MD5": "54a87ea75e373bc39b2d36df201231ea",
+                "url": "https://guswl4577.github.io/FT-/repo/lib/net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar"
               }
             }
           ]
         },
         {
-          "id": "generated.forgemod:iris:fabric-1.10.6+mc1.21.11@jar",
+          "id": "generated.fabricmod:iris:1.10.6+mc1.21.11@jar",
           "name": "Iris",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
             "size": 2805791,
-            "url": "https://guswl4577.github.io/FT-/servers/%ED%94%84%EB%A1%9C%EC%84%9C%EB%B2%842-1.21.11/forgemods/optionalon/iris-fabric-1.10.6+mc1.21.11.jar",
+            "url": "https://guswl4577.github.io/FT-/servers/%ED%94%84%EB%A1%9C%EC%84%9C%EB%B2%842-1.21.11/fabricmods/required/iris-fabric-1.10.6+mc1.21.11.jar",
             "MD5": "1fad457f15178da18d7b2309b23d64a0"
-          },
-          "required": {
-            "value": false
           }
         },
         {
-          "id": "net.optifine:optifine:1.21.11_HD_U_J9@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
+          "id": "generated.fabricmod:optifine_1.21.11_hd_u_j9:0.0.0@jar",
+          "name": "OptiFine_1.21.11_HD_U_J9",
+          "type": "FabricMod",
           "artifact": {
             "size": 8045116,
-            "url": "https://guswl4577.github.io/FT-/servers/%ED%94%84%EB%A1%9C%EC%84%9C%EB%B2%842-1.21.11/forgemods/optionalon/OptiFine_1.21.11_HD_U_J9.jar",
+            "url": "https://guswl4577.github.io/FT-/servers/%ED%94%84%EB%A1%9C%EC%84%9C%EB%B2%842-1.21.11/fabricmods/required/OptiFine_1.21.11_HD_U_J9.jar",
             "MD5": "a1ce0d17ef1fc016582a82234cccf2f1"
-          },
-          "required": {
-            "value": false
           }
         },
         {
-          "id": "generated.forgemod:sodium:fabric-0.8.6+mc1.21.11@jar",
+          "id": "net.caffeinemc.mods:sodium:0.8.6+mc1.21.11@jar",
           "name": "Sodium",
-          "type": "ForgeMod",
+          "type": "FabricMod",
           "artifact": {
             "size": 1869752,
-            "url": "https://guswl4577.github.io/FT-/servers/%ED%94%84%EB%A1%9C%EC%84%9C%EB%B2%842-1.21.11/forgemods/optionalon/sodium-fabric-0.8.6+mc1.21.11.jar",
+            "url": "https://guswl4577.github.io/FT-/servers/%ED%94%84%EB%A1%9C%EC%84%9C%EB%B2%842-1.21.11/fabricmods/required/sodium-fabric-0.8.6+mc1.21.11.jar",
             "MD5": "4044f71541bdadabef0cb720a9ecc589"
-          },
-          "required": {
-            "value": false
           }
         },
         {
