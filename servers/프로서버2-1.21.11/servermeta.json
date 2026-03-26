@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/guswl/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/Pro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "프로서버2 (Minecraft 1.21.11)",
+    "description": "프로서버2 Running Minecraft 1.21.11 (Forge v61.1.0)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "pro0104.kro.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "61.1.0"
+  },
+  "untrackedFiles": []
+}
