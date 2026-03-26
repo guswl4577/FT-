@@ -520,28 +520,6 @@
             "MD5": "b535d194c7115b360860e226c65ae3f2",
             "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip"
           }
-        },
-        {
-          "id": "photon_v1.2a.zip",
-          "name": "photon_v1.2a.zip",
-          "type": "File",
-          "artifact": {
-            "size": 3737845,
-            "url": "https://guswl4577.github.io/FT-/servers/%ED%94%84%EB%A1%9C%EC%84%9C%EB%B2%842-1.21.11/files/shaderpacks/photon_v1.2a.zip",
-            "MD5": "9189fd0de30af6ea20765a8f05380583",
-            "path": "shaderpacks/photon_v1.2a.zip"
-          }
-        },
-        {
-          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
-          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
-          "type": "File",
-          "artifact": {
-            "size": 3184524,
-            "url": "https://guswl4577.github.io/FT-/servers/%ED%94%84%EB%A1%9C%EC%84%9C%EB%B2%842-1.21.11/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV93.0%C2%A7r%C2%A7l.zip",
-            "MD5": "021c95bd3d217b4a7e45997d5127285b",
-            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip"
-          }
         }
       ]
     }
